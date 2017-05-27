@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulaires -> PHP</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+  <script src="../utility/utility.js"></script>
+</head>
+<body>
+
+  <p>
+    Créer une mini app
+    un champs input number <br>
+    un champs input color<br>
+    un bouton validation <br>
+    Au click sur le bouton, on créé autant de div qu'indiqué dans le champs number(1 par défaut)
+    Le(s) block(s) créé(s) aura(ont) la couleur du champs color<br>
+  </p>
+  <h2 class="title">Indice :</h2>
+  <ul class="list indices">
+    <li>document.createElement</li>
+    <li>element.appendChild</li>
+    <li>element.value</li>
+    <li>element.style</li>
+    <li>element.onclick</li>
+  </ul>
+  <div id="tools" class="tools">
+    <input type="number" name="howmuch" class="input" id="nb_blocks">
+    <input type="color" value="#fad345" name="textcolor" class="input" id="color_blocks">
+    <input type="submit" name="send" value="s'inscrire" class="input" id="create_blocks">
+  </div>
+  <div id="blocks" class="blocks">
+
+  </div>
+
+</body>
+</html>
